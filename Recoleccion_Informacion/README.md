@@ -15,7 +15,7 @@ El objetivo es obtener informacion relevante sobre el sistema que se va a realiz
 
 
 
-### IP's de los Servidores 
+## IP's de los Servidores 
 
 Debemos saber cual es la IP, HOSTNAME(S) y PUERTOS que tiene la Pagina Web.
 
@@ -43,11 +43,11 @@ Para poder obtener toda la informacion requeria usaremos `shodan`.
 
 
 
-### Email, DNS y Dominio 
+## Dominio, Email y DNS
 
 Debemos saber quien a registrado del Dominio, donde ha sido registrado, cuantos sevidores tiene la empresa, cuantos Sitios Web estan alojanos en un Servidor y Email ralacionados a la empresa.
 
-#### Ubicacion del Dominio
+### Ubicacion del Dominio
 
 | Organización | Región |
 |--------------|--------|
@@ -56,16 +56,6 @@ Debemos saber quien a registrado del Dominio, donde ha sido registrado, cuantos 
 | RIPE         | Europa y la otra parte del África |
 
 
-#### DNS
-
-| Nombre Record | Tipo | Utilidad |
-|--------------|--------|--------|
-| Host         | A | Mapea el Domineo de una IP |
-| Pointer        | PTR | Mapea una IP a un Domieo |
-| NameServer      | NS | Nombre de un servidor para una zona delegada |
-| Start of Authority | SOA | Configuracion para transferencia de Zonas |
-| Mail Exchanger | MX | Especifica los servidores de correo |
-| Text Record | TXT | Se utiliza para agregar metadatos o verificar la autenticidad de un dominio |
 
 - https://whois.domaintools.com/ : Informacion de los DNS
 
@@ -81,7 +71,7 @@ Debemos saber quien a registrado del Dominio, donde ha sido registrado, cuantos 
 
 
 
-#### Email Relacionados
+### Email Relacionados
 
 - https://hunter.io/ : Recolegion de Correos Electronicos
 
@@ -91,9 +81,21 @@ Debemos saber quien a registrado del Dominio, donde ha sido registrado, cuantos 
 
 ![Descripción de la imagen](img/correo.png)
 
-#### Estructura de los DNS
+### Estructura de los DNS
 
 Se debe conoser la estructura de los DNS en la pagina web, ya que nos puede brindara informacion de subdomineos importantes
+
+### DNS
+
+| Nombre Record | Tipo | Utilidad |
+|--------------|--------|--------|
+| Host         | A | Mapea el Domineo de una IP |
+| Pointer        | PTR | Mapea una IP a un Domieo |
+| NameServer      | NS | Nombre de un servidor para una zona delegada |
+| Start of Authority | SOA | Configuracion para transferencia de Zonas |
+| Mail Exchanger | MX | Especifica los servidores de correo |
+| Text Record | TXT | Se utiliza para agregar metadatos o verificar la autenticidad de un dominio |
+
 
 
 - https://dnsdumpster.com/ : Estructura de los DNS
@@ -101,11 +103,11 @@ Se debe conoser la estructura de los DNS en la pagina web, ya que nos puede brin
 ![Descripción de la imagen](img/stru_dns.png )
 
 
-### Recopilar archivos sensibles
+## Recopilar archivos sensibles
 
 Se puede encontrar rutas de las páginas web.
 
-#### Ejemplo 
+### Ejemplo 
 
 - pagina web: `https://www.ejemplo.com/robots.txt`
 
@@ -117,7 +119,7 @@ Como autoditores, tenemos la oportunidad de recopilar información sobre las pá
 
 
 
-### Tecnologias que componen el Sitio Web
+## Tecnologias que componen el Sitio Web
 
 En este punto queremos saber como se creado la pagina web, que herramientas se han utilizado
 

@@ -1,12 +1,12 @@
-# Intruccion al Pentesting Web
+# Intruccion
 
-Se dara pasos a pasos de como realizar una audoria web, basandonos en fundamentos teoricos y practicos para la realizacion de una auditoria web.
+Una auditoría web es un proceso esencial para evaluar y mejorar la eficiencia y efectividad de un sitio web. Aquí, te proporcionaremos una serie de pasos que te ayudarán a realizar una auditoría de manera sistemática y completa.
 
 ## Ciclo para la deteccion de Vulneravilidades
 
 Tenemos la intención de lanzar al mercado un software (página web, aplicación, etc.), y como ejemplo utilizaremos el `Modelo de Desarrollo de Software Cascada`.
 
-Donde se compone de Analisis, Diseño, Codificacion, Pruebas y Mantenimiento. Es en el proceso de `Pruebas` y `Mantenimiento`, es en este punto donde encuntran las brechas de Seguridad del sistema.
+Donde se compone de Analisis, Diseño, Codificacion, Pruebas y Mantenimiento. Es en el proceso de `Pruebas` y `Mantenimiento`, es en este punto donde encuntran las brechas de Seguridad del Sistema.
 
 - La mayoría de las empresas tardan aproximadamente de `100 a 120 días` en lanzar una nueva actualización. Sin embargo, dependiendo de la gravedad, algunas pueden lanzar actualizaciones de seguridad en cuestión de `días o semanas`.
 
