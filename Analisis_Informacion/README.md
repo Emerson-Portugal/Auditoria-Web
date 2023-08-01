@@ -9,6 +9,12 @@ Es el segundo punto que debemos realizar en nuestra `Auditiria Web` esta técnic
 
 Es una herramienta de código abierto que se utiliza para realizar escaneos de redes y sistemas. Con Nmap, puedes obtener información sobre los puertos abiertos en un sistema, identificar el tipo de servicio que se está ejecutando en cada puerto y determinar qué sistemas están activos en la red.
 
+
+### Instalacion
+```ssh
+sudo apt install nmap
+```
+
 ### Sitio Web
 
 - https://nmap.org/
@@ -18,6 +24,11 @@ Es una herramienta de código abierto que se utiliza para realizar escaneos de r
 ## Maltego
 
 Con Maltego, puedes obtener información sobre entidades digitales como personas, organizaciones, sitios web, direcciones de correo electrónico, etc. También te permite visualizar y analizar las relaciones entre estas entidades. Es útil para identificar a quién pertenece un sitio web o extraer información relevante para la investigación de ciberseguridad.
+
+### Instalacion
+```ssh
+sudo apt install maltego
+```
 
 ### Sitio Web
 
@@ -30,6 +41,11 @@ Con Maltego, puedes obtener información sobre entidades digitales como personas
 ## OWASP ZAP
 
 Se utiliza para identificar y explotar vulnerabilidades en aplicaciones web. Con ZAP, puedes realizar pruebas de penetración en sitios web para descubrir posibles vulnerabilidades, como inyecciones SQL, cross-site scripting (XSS), inyecciones de comandos, entre otros. 
+
+### Instalacion
+```ssh
+sudo apt install zaproxy
+```
 
 ### Sitio Web
 
