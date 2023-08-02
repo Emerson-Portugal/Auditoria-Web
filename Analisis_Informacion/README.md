@@ -5,7 +5,7 @@ Es el segundo punto que debemos realizar en nuestra `Auditiria Web` esta técnic
 ![Descripción de la imagen](img/metodologia.png)
 
 
-## Namp
+## Nmap
 
 Es una herramienta de código abierto que se utiliza para realizar escaneos de redes y sistemas. Con Nmap, puedes obtener información sobre los puertos abiertos en un sistema, identificar el tipo de servicio que se está ejecutando en cada puerto y determinar qué sistemas están activos en la red.
 
@@ -52,3 +52,37 @@ sudo apt install zaproxy
 - https://nmap.org/
 
 ![Descripción de la imagen](img/zap.PNG)
+
+-------------------------
+# Herramientas Opcionales
+
+## Burp Suite
+
+Se utiliza para realizar pruebas de penetración y encontrar vulnerabilidades en aplicaciones web, lo que ayuda a los desarrolladores y administradores de sistemas a identificar y solucionar problemas de seguridad antes de que sean explotados por atacantes.
+
+#### Sitio Web
+
+- https://portswigger.net/burp
+
+![Descripción de la imagen](img/burp.png)
+
+## Nessus
+
+Es un escáner de vulnerabilidades que permite identificar y evaluar posibles debilidades y fallos de seguridad en sistemas, redes y aplicaciones. Proporciona un análisis exhaustivo y en profundidad, ofreciendo recomendaciones para mitigar los riesgos identificados.
+
+#### Sitio Web
+
+- https://www.tenable.com/products/nessus
+
+![Descripción de la imagen](img/nessus.png)
+
+
+## OpenVas
+
+Es otra herramienta de escaneo de vulnerabilidades que ayuda a descubrir debilidades en redes y sistemas. Es una alternativa de código abierto al software comercial Nessus y permite detectar y evaluar vulnerabilidades de seguridad de manera efectiva.
+
+#### Sitio Web
+
+- https://openvas.org/
+
+![Descripción de la imagen](img/open.png)
