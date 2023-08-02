@@ -1,6 +1,6 @@
 # Analisis de la Infomacion 
 
-Es el segundo punto que debemos realizar en nuestra `Auditiria Web` esta técnica se utiliza para identificar debilidades y fallos de seguridad en sistemas, redes o aplicaciones. Al realizar un escaneo de vulnerabilidades, puedes detectar posibles puntos débiles que podrían ser explotados y puedesn comprometer la seguridad de un sistema.
+Es el segundo punto vamos a realizar técnica para identificar debilidades y fallos de seguridad. Como tambien vamos a validar toda la informacion recopilada.  
 
 ![Descripción de la imagen](img/metodologia.png)
 
@@ -23,7 +23,7 @@ sudo apt install nmap
 
 ## Maltego
 
-Con Maltego, puedes obtener información sobre entidades digitales como personas, organizaciones, sitios web, direcciones de correo electrónico, etc. También te permite visualizar y analizar las relaciones entre estas entidades. Es útil para identificar a quién pertenece un sitio web o extraer información relevante para la investigación de ciberseguridad.
+Se utiliza para obtener información sobre entidades digitales como personas, organizaciones, sitios web, direcciones de correo electrónico, etc. También te permite visualizar y analizar las relaciones entre estas entidades.
 
 ### Instalacion
 ```ssh
@@ -32,7 +32,7 @@ sudo apt install maltego
 
 ### Sitio Web
 
-- https://nmap.org/
+- https://www.maltego.com/
 
 ![Descripción de la imagen](img/maltego.PNG)
 
@@ -49,7 +49,7 @@ sudo apt install zaproxy
 
 ### Sitio Web
 
-- https://nmap.org/
+- https://www.zaproxy.org/
 
 ![Descripción de la imagen](img/zap.PNG)
 
@@ -58,7 +58,7 @@ sudo apt install zaproxy
 
 ## Burp Suite
 
-Se utiliza para realizar pruebas de penetración y encontrar vulnerabilidades en aplicaciones web, lo que ayuda a los desarrolladores y administradores de sistemas a identificar y solucionar problemas de seguridad antes de que sean explotados por atacantes.
+Se utiliza para realizar pruebas de penetración y encontrar vulnerabilidades en aplicaciones web, lo que ayuda a los desarrolladores y administradores para identificar problemas de seguridad antes de que sean explotados por atacantes.
 
 #### Sitio Web
 
@@ -68,7 +68,7 @@ Se utiliza para realizar pruebas de penetración y encontrar vulnerabilidades en
 
 ## Nessus
 
-Es un escáner de vulnerabilidades que permite identificar y evaluar posibles debilidades y fallos de seguridad en sistemas, redes y aplicaciones. Proporciona un análisis exhaustivo y en profundidad, ofreciendo recomendaciones para mitigar los riesgos identificados.
+Es un escáner de vulnerabilidades que permite identificar, evaluar posibles debilidades o fallos de seguridad en sistemas, redes y aplicaciones. Proporciona un análisis exhaustivo y en profundidad, ofreciendo recomendaciones para mitigar los riesgos identificados.
 
 #### Sitio Web
 
@@ -79,7 +79,7 @@ Es un escáner de vulnerabilidades que permite identificar y evaluar posibles de
 
 ## OpenVas
 
-Es otra herramienta de escaneo de vulnerabilidades que ayuda a descubrir debilidades en redes y sistemas. Es una alternativa de código abierto al software comercial Nessus y permite detectar y evaluar vulnerabilidades de seguridad de manera efectiva.
+Es otra herramienta de escaneo de vulnerabilidades que ayuda a descubrir debilidades en redes y sistemas. Es una alternativa de código abierto al software comercial Nessus, te permite detectar y evaluar vulnerabilidades de seguridad de manera efectiva.
 
 #### Sitio Web
 
